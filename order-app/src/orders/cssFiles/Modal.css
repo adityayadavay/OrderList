@@ -1,0 +1,19 @@
+/* .modal-dialog-centered {
+    width: 100% !important;
+    margin: 0.75rem auto !important;
+} */
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        /* max-width: 500px;
+        margin: 1.75rem auto; */
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+}
+
+.modal-scroll {
+    background-color: lightblue;
+    height: 480px;
+    overflow: scroll;
+}
